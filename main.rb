@@ -6,4 +6,7 @@ require './filters'
 
 ## Your test code can go here
 
-pp @candidates
+#pp @candidates
+pp find(5)
+pp (experienced?(@candidates[1]))
+pp qualified_candidates(@candidates)
